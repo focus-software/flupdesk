@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
 		width: "100vw",
 		height: "100vh",
 		//background: "linear-gradient(to right, #191970 , #00008B , #0000FF)", //Cor de fundo
-		 backgroundImage: "url(https://helloclique.com.br/imagens/logo1.png)",
+		 backgroundImage: "url(https://cdn.discordapp.com/attachments/1179645911824080919/1179650309891563530/fundo_bg_upsend.png)",
 		 backgroundRepeat: "no-repeat",
 		 backgroundSize: "100% 100%",
 		 backgroundPosition: "center",
@@ -45,7 +45,7 @@ const useStyles = makeStyles(theme => ({
 		textAlign: "center",
 	},
 	paper: {
-		backgroundColor: "#13703c",
+		backgroundColor: "#ffffff",
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
@@ -146,7 +146,7 @@ const Login = () => {
 				</form>
 			</div>
 			<br/>
-			<a target="_blank" href="https://helloclique.com.br" className={classes.powered}>Hello Clique / Hello Drop - https://helloclique.com.br</a>
+			<a target="_blank" href="https://appupsend.online" className={classes.powered}>Seja bem vindo UPsend - https://appupsend.online</a>
 			<Box mt={8}>{/* <Copyright /> */}</Box>
 		</Container>
 		</div>
